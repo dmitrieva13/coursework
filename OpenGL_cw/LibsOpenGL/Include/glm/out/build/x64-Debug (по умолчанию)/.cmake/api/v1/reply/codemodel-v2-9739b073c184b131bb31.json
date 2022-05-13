@@ -1,0 +1,55 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "glm_dummy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glm_dummy-Debug-8369d952cc1ce3559e87.json",
+					"name" : "glm_dummy",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/OpenGL_cw/OpenGL_cw/LibsOpenGL/Include/glm/out/build/x64-Debug (по умолчанию)",
+		"source" : "D:/OpenGL_cw/OpenGL_cw/LibsOpenGL/Include/glm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

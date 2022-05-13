@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Load">
+      <UniqueIdentifier>{7cf5aad0-1585-4d02-bb45-3475ecba5ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Water">
+      <UniqueIdentifier>{86d52437-9e84-4186-819d-63a822234db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Light">
+      <UniqueIdentifier>{842c8bdc-16d3-4fc2-929b-a29328e53bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Model">
+      <UniqueIdentifier>{c8a83957-9e3e-4e9b-9cb6-7747b496ca89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Grass">
+      <UniqueIdentifier>{20a9cc99-07e7-481b-b7dc-4cc6e87d6ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Skybox">
+      <UniqueIdentifier>{27a2f3f8-f5ab-4a5b-9bec-2fc266a1c316}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="window.cpp">
+      <Filter>Исходные файлы\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="water.cpp">
+      <Filter>Исходные файлы\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="waterFrameBuffer.cpp">
+      <Filter>Исходные файлы\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="LibsOpenGL\glad.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.h">
+      <Filter>Исходные файлы\Load</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Исходные файлы\Load</Filter>
+    </ClInclude>
+    <ClInclude Include="water.h">
+      <Filter>Исходные файлы\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="lamp.h">
+      <Filter>Исходные файлы\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.h">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="grass.h">
+      <Filter>Исходные файлы\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>Исходные файлы\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="waterFrameBuffer.h">
+      <Filter>Исходные файлы\Water</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="waterFS.txt">
+      <Filter>Исходные файлы\Water</Filter>
+    </Text>
+    <Text Include="waterVS.txt">
+      <Filter>Исходные файлы\Water</Filter>
+    </Text>
+    <Text Include="lightVS.txt">
+      <Filter>Исходные файлы\Light</Filter>
+    </Text>
+    <Text Include="lightFS.txt">
+      <Filter>Исходные файлы\Light</Filter>
+    </Text>
+    <Text Include="modelLoadFS.txt">
+      <Filter>Исходные файлы\Model</Filter>
+    </Text>
+    <Text Include="modelLoadVS.txt">
+      <Filter>Исходные файлы\Model</Filter>
+    </Text>
+    <Text Include="grassVS.txt">
+      <Filter>Исходные файлы\Grass</Filter>
+    </Text>
+    <Text Include="grassFS.txt">
+      <Filter>Исходные файлы\Grass</Filter>
+    </Text>
+    <Text Include="skyboxFS.txt">
+      <Filter>Исходные файлы\Skybox</Filter>
+    </Text>
+    <Text Include="skyboxVS.txt">
+      <Filter>Исходные файлы\Skybox</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
